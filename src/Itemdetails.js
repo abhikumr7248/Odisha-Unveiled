@@ -35,7 +35,7 @@ class Itemdetails extends React.Component {
               <i>
                 {items.rating} <i style={{ color: "#717171" }}>·</i>{" "}
               </i>
-              <i>{items.location},United States</i>
+              <i>{items.location}, Odisha</i>
               <i style={{ color: "black", textDecoration: "none" }}>
                 <i style={{ color: "#717171" }}>·</i> {items.price}
               </i>
@@ -52,7 +52,8 @@ class Itemdetails extends React.Component {
               alt="img"
             />
             <h2>
-              {items.type} hosted by {items.host}
+              {items.type}
+              
             </h2>
             <h4>{items.smalldescription}</h4>
             <div className="items__wind" style={{ cursor: "pointer" }}>
@@ -96,10 +97,10 @@ class Itemdetails extends React.Component {
               >
                 <path d="M15.032 1.747c.263-1.004 1.692-.993 1.94.015.876 3.577 2.415 6.454 4.614 8.652 2.198 2.199 5.075 3.738 8.652 4.615 1.016.249 1.016 1.693 0 1.942-3.577.877-6.454 2.416-8.652 4.615-2.199 2.198-3.738 5.075-4.615 8.652-.249 1.016-1.693 1.016-1.942 0-.877-3.577-2.416-6.454-4.615-8.652-2.198-2.199-5.075-3.738-8.652-4.615-1.008-.247-1.019-1.676-.015-1.939 3.535-.923 6.394-2.487 8.597-4.69 2.202-2.202 3.765-5.06 4.688-8.595zm.945 3.518l-.133.325c-.88 2.085-2.025 3.914-3.438 5.484l-.33.357-.318.326c-1.6 1.6-3.5 2.893-5.693 3.88l-.475.206-.325.133.352.14c2.108.859 3.952 1.995 5.527 3.407l.358.33.326.319c1.603 1.602 2.887 3.515 3.854 5.732l.203.48.115.291.115-.292c.86-2.108 1.996-3.952 3.408-5.527l.33-.358.319-.326c1.602-1.603 3.515-2.887 5.732-3.854l.48-.203.292-.115-.293-.115c-2.421-.988-4.494-2.34-6.211-4.057-1.603-1.602-2.887-3.515-3.854-5.732l-.203-.48-.138-.351zm11.04-3.891c.13-.502.845-.497.969.007.176.718.48 1.287.913 1.72.433.433 1.002.737 1.72.913.508.125.508.847 0 .972-.718.176-1.287.48-1.72.913-.433.433-.737 1.002-.913 1.72-.125.508-.847.508-.972 0-.176-.718-.48-1.287-.913-1.72-.433-.433-1.002-.737-1.72-.913-.504-.124-.51-.839-.007-.97.71-.185 1.277-.496 1.712-.93.434-.435.745-1.002.93-1.712z"></path>
               </svg>
-              <h3>Enhanced Clean</h3>
+              <h3>Enhanced Experience</h3>
             </div>
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              This host committed to Airbnb's 5-step enhanced cleaning process.
+              {/* This host committed to Airbnb's 5-step enhanced cleaning process. */}
             </h4>
             <br />
             <div className="items__icons">
@@ -130,7 +131,7 @@ class Itemdetails extends React.Component {
               <h3>Outstanding hospitality</h3>
             </div>
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              Few guests complimented {items.host} for outstanding hospitality..
+              {/* Few guests complimented {items.host} for outstanding hospitality.. */}
             </h4>
             <br />
             <div className="items__icons">
@@ -153,9 +154,9 @@ class Itemdetails extends React.Component {
               <h3>Cancellation policy</h3>
             </div>
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              Add your trip dates to get the cancellation details for this stay.
+              {/* Add your trip dates to get the cancellation details for this stay. */}
             </h4>
-            <br />
+            <br /> 
             <hr />
             <h3>{items.description}</h3>
             <h3>Contact host</h3>
@@ -188,7 +189,7 @@ class Itemdetails extends React.Component {
                   margin: "0 0 15px 30px",
                 }}
               >
-                Kitchen
+                Complimentary breakfast
               </h3>
             </div>
             <div className="items__icons">
@@ -244,7 +245,7 @@ class Itemdetails extends React.Component {
                   margin: "0 0 15px 30px",
                 }}
               >
-                Hot tub
+                Personal care and attention
               </h3>
             </div>
             <div className="items__icons">
@@ -272,7 +273,7 @@ class Itemdetails extends React.Component {
                   margin: "0 0 15px 30px",
                 }}
               >
-                Air conditioning
+                Transport by private air-conditioned car
               </h3>
             </div>
             <div className="items__icons">
@@ -300,14 +301,14 @@ class Itemdetails extends React.Component {
                   margin: "0 0 15px 30px",
                 }}
               >
-                Laptop-friendly workspace
+                All sightseeing with private local guides
               </h3>
             </div>
-            <button className="items__btn">Show all 35 amenities</button>
+            
             <hr />
             <h2 style={{ padding: "25px 0" }}>Location</h2>
             <h3 style={{ textDecoration: "none" }}>
-              {items.location}, Untited States.
+              {items.location}, Odisha.
             </h3>
             <button className="items__btn">More about the location</button>
             <hr className="items__mobile" />

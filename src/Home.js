@@ -3,7 +3,7 @@ import Banner from "./home/Banner";
 import Contents from "./home/Contents";
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
-import { Content, Maincontents, Bigcontents } from "./Maincontents";
+import { Content, Maincontents, Bigcontents,Contentt } from "./Maincontents";
 import "./home/contents.css";
 import ImgSlider from "./components/ImgSlider";
 class Home extends React.Component {
@@ -11,6 +11,7 @@ class Home extends React.Component {
     maincontent: Maincontents,
     bigcontent: Bigcontents,
     contents: Content,
+    contentss: Contentt,
   };
   render() {
     return (
@@ -33,7 +34,11 @@ class Home extends React.Component {
         <Container>
           <ImgSlider/>
         </Container>
+        <div className="Lool">
+          <h2>Popular Packages</h2>
+        </div>
         <div className="home__cont">
+
           {this.state.contents.map((item) => {
             return (
               <div key={item.id}>
@@ -51,7 +56,7 @@ class Home extends React.Component {
           })}
         </div>
         <div className="home__cont">
-          {this.state.contents.map((item) => {
+          {this.state.contentss.map((item) => {
             return (
               <div key={item.id}>
                 <Link to={`/result/${item.id}`} className="link">

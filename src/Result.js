@@ -22,7 +22,7 @@ class Result extends React.Component {
           <h2>Stays NearBy</h2>
           <button>Cancellation Flexibility</button>
           <button>Type Of Place</button>
-          <button>Rooms & Beds</button>
+          <button>Price</button>
           <button>More Filters</button>
         </div>
         {this.state.resultcontent.map((item) => {
@@ -56,7 +56,7 @@ class Result extends React.Component {
                     }}
                   ></button>
                   <div className="resultcont__price">
-                    <span>{item.price}</span> / night
+                    <span>{item.price}</span>
                   </div>
                   <div className="resultcont__star">
                     ★

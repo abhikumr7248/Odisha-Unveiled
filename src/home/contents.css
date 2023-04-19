@@ -13,6 +13,17 @@
 .bighome p {
   padding-left: 20px;
 }
+h2{
+  /* color:red; */
+  font-family: cursive;
+  font-weight: normal;
+  margin-top: 7px;
+}
+.Lool h2{
+  margin-left: 25px;
+  font-weight: normal;
+  margin-top: 7px;
+}
 .home__cont {
   display: flex;
   overflow-y: hidden;
