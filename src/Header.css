@@ -53,9 +53,12 @@ span h3 {
 .header__icon {
   display: flex;
   top: 6px;
-  left: 75%;
-  position: relative;
   cursor: pointer;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
 }
 
 .header__icon svg {
