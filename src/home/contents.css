@@ -19,6 +19,19 @@ h2{
   font-weight: normal;
   margin-top: 7px;
 }
+h3{
+  color:red;
+  font-family: cursive;
+  font-weight: normal;
+  margin-top: 7px;
+}
+h4{
+  color:red;
+  font-family: cursive;
+  font-weight: normal;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
 .Lool h2{
   margin-left: 25px;
   font-weight: normal;

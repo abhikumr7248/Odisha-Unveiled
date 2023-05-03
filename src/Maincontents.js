@@ -118,20 +118,20 @@ export const Maincontents = [
   {
     id: 8,
     img: "./card__1.jpg",
-    title: "Serenity unplugged ",
+    title: "Eco Retreat Odisha ",
     description: "Watch the sea toss and turn, find a moment to yourself as the wave’s crash against time!",
   },
   {
     id: 9,
     img: "./card__2.jpg",
-    title: "A saga of excellence",
+    title: "Konark",
     description:
       "Imposing structures and skilful craftsmanship transcends time & captures your imagination.",
   },
   {
     id: 10,
     img: "./card__3.jpg",
-    title: "Reconnect with nature",
+    title: "Bhitarkanika National Park",
     description: "Reunite with yourself & let the wilderness take you home.",
   },
 ];
